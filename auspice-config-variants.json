@@ -1,0 +1,40 @@
+{
+  "colorings": [
+    {
+      "key": "clade_who",
+      "title": "Variant",
+      "type": "categorical",
+      "legend": [
+        {"value": "Alpha"},
+        {"value": "Beta"},
+        {"value": "Gamma"},
+        {"value": "Delta"},
+        {"value": "Epsilon"},
+        {"value": "Eta"},
+        {"value": "Iota"},
+        {"value": "Lambda"},
+        {"value": "Omicron"},
+        {"value": "Mu"},
+        {"value": "Kappa"},
+        {"value": "recombinant"}
+      ],
+      "scale": [
+        ["Alpha", "#403CC5"],
+        ["Beta", "#4067CF"],
+        ["Gamma", "#4A8BC3"],
+        ["Delta", "#5AA4A9"],
+        ["Epsilon", "#6FB488"],
+        ["Eta", "#8BBB69"],
+        ["Iota", "#A9BD53"],
+        ["Lambda", "#C7B944"],
+        ["Omicron", "#DDA93C"],
+        ["Mu", "#E68A35"],
+        ["Kappa", "#E35C2C"],
+        ["recombinant", "#DB2823"]
+      ]
+    }
+  ],
+  "display_defaults": {
+    "color_by": "clade_who"
+  }
+}
